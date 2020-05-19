@@ -9,8 +9,8 @@ from jsintegration.JasperServerIntegration import JasperServerIntegration
 from io import BytesIO
 
 obj = JasperServerIntegration(
-    'http://localhost:8080/jasperserver', # URL of the Jasper Server
-  'reports/aluno_escola_filtro',         # Path to the Report Unit
+  'http://localhost:8080/jasperserver',   # URL of the Jasper Server
+  'reports/my_report_unit',               # Path to the Report Unit
   'pdf',                                  # Export type
   'jasperadmin',                          # User
   'jasperadmin',                          # Password
